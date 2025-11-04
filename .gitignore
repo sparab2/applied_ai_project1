@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.ipynb_checkpoints/
+
+# Virtual envs
+venv/
+.env/
+.venv/
+
+# Data / Artifacts (kept local)
+data/
+artifacts/
+!artifacts/README.md   # keep a tiny marker file
+
+# Checkpoints and large binaries
+*.keras
+*.h5
+*.ckpt
+*.pth
+*.tfrecord
+*.npz
+*.npy
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Logs
+logs/
+*.log
+
+# OS / editors
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
