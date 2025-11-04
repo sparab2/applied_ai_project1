@@ -1,5 +1,38 @@
 # Applied AI Midterm — SRGAN + Transfer Learning
 
+Applied_AI_midterm/
+│
+├── src/
+│   ├── __init__.py
+│   ├── datasets.py
+│   ├── models_cls.py
+│   ├── models_srgan.py
+│   ├── train_A.py
+│   ├── train_B.py
+│   ├── eval_sr_metrics.py
+│   ├── eval_cls_compare.py
+│
+├── artifacts/
+│   ├── CLS/
+│   │   ├── cm_A.png
+│   │   ├── cm_B.png
+│   │   ├── compare.csv
+│   │   └── reports/
+│   │       ├── A_report.txt
+│   │       └── B_report.txt
+│   ├── SRGAN/
+│   │   ├── sr_progress.gif
+│   │   ├── preview_augmented.png
+│   │   └── eval/
+│   │       └── sr_metrics.csv
+│
+├── data/                # (can be empty or contain a readme)
+│
+├── README.md            # your documentation (see below)
+├── .gitignore
+└── requirements.txt     # (optional but good practice)
+
+
 ## Dataset split
 - 70% train / 30% test handled with `image_dataset_from_directory` seeds=42.
 
