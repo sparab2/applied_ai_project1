@@ -1,4 +1,12 @@
-# Applied AI Midterm — SRGAN + Transfer Learning
+# Applied AI Midterm: SRGAN + Transfer Learning
+
+## 🖼️ Sample Outputs
+
+### SRGAN Training Progress
+![SRGAN Training Progress](images/sr_progress.gif)
+
+### Preview of Augmented Images
+![Augmented Samples](images/preview_augmented.png)
 
 ## 📁 Project Structure
 
