@@ -1,5 +1,8 @@
 # Applied AI Midterm — SRGAN + Transfer Learning
 
+## 📁 Project Structure
+
+```text
 Applied_AI_midterm/
 │
 ├── src/
@@ -28,9 +31,15 @@ Applied_AI_midterm/
 │
 ├── data/                # (can be empty or contain a readme)
 │
-├── README.md            # your documentation (see below)
+├── README.md            # your documentation
 ├── .gitignore
 └── requirements.txt     # (optional but good practice)
+```
+
+### Download Pretrained Models (Optional)
+The trained SRGAN generator (`generator_final.keras`) and classifier checkpoints are too large for GitHub.
+You can download them from this Google Drive link (contains artifacts and data):
+https://drive.google.com/drive/folders/1BC_nUfWVmXNeDgU7uBfPSfPNC4zj3P7o?usp=drive_link
 
 
 ## Dataset split
