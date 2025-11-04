@@ -45,7 +45,7 @@ https://drive.google.com/drive/folders/1BC_nUfWVmXNeDgU7uBfPSfPNC4zj3P7o?usp=dri
 ## Dataset split
 - 70% train / 30% test handled with `image_dataset_from_directory` seeds=42.
 
-## Steps (as required)
+## Steps 
 1. **Train binary classifier A (128×128, transfer learning)**  
    `python -m src.train_A --data ./data --out ./artifacts/A --base MobileNetV2 --epochs 10`
 
